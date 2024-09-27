@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import About from '../components/About';
+import Process from '../components/Process';
 import QA from '../components/QA';
 import Contact from '../components/Contact';
 
@@ -18,6 +19,7 @@ const Index = () => {
       <main>
         <Hero />
         <About />
+        <Process />
         <QA />
         <Contact />
       </main>
