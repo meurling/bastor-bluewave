@@ -9,6 +9,7 @@ const Navbar = () => {
         <ul className="flex space-x-6">
           <li><Link to="about" smooth={true} duration={500} className="cursor-pointer hover:text-blue-200">About</Link></li>
           <li><Link to="process" smooth={true} duration={500} className="cursor-pointer hover:text-blue-200">Process</Link></li>
+          <li><Link to="pricing" smooth={true} duration={500} className="cursor-pointer hover:text-blue-200">Pricing</Link></li>
           <li><Link to="qa" smooth={true} duration={500} className="cursor-pointer hover:text-blue-200">Q&A</Link></li>
           <li><Link to="contact" smooth={true} duration={500} className="cursor-pointer hover:text-blue-200">Contact</Link></li>
         </ul>
