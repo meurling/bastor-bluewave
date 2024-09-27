@@ -9,7 +9,7 @@ import Contact from '../components/Contact';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-blue-50">
+    <div className="min-h-screen">
       <Helmet>
         <title>Bastor - Trade Credit Insurance Broker | Protect Your Business</title>
         <meta name="description" content="Bastor offers expert trade credit insurance solutions to protect your business from non-payment risks. Secure your cash flow with our tailored coverage." />
