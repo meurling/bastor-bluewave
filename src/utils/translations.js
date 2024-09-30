@@ -1,8 +1,16 @@
 export const translations = {
   en: {
+    navbar: {
+      about: "About",
+      process: "Process",
+      pricing: "Pricing",
+      qa: "Q&A",
+      contact: "Contact"
+    },
     hero: {
       title: "Protect Your Business with\nTrade Credit Insurance",
-      subtitle: "Bastor helps you find the best trade credit insurance for your business by leveraging our global network of brokers and providers"
+      subtitle: "Bastor helps you find the best trade credit insurance for your business by leveraging our global network of brokers and providers",
+      cta: "Get Started"
     },
     about: {
       title: "About Bastor",
@@ -22,9 +30,17 @@ export const translations = {
     // Add more translations for other components...
   },
   de: {
+    navbar: {
+      about: "Über uns",
+      process: "Prozess",
+      pricing: "Preise",
+      qa: "Fragen & Antworten",
+      contact: "Kontakt"
+    },
     hero: {
       title: "Schützen Sie Ihr Unternehmen mit\nWarenkreditversicherung",
-      subtitle: "Bastor hilft Ihnen, die beste Warenkreditversicherung für Ihr Unternehmen zu finden, indem wir unser globales Netzwerk von Maklern und Anbietern nutzen"
+      subtitle: "Bastor hilft Ihnen, die beste Warenkreditversicherung für Ihr Unternehmen zu finden, indem wir unser globales Netzwerk von Maklern und Anbietern nutzen",
+      cta: "Loslegen"
     },
     about: {
       title: "Über Bastor",
