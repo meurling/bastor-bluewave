@@ -19,19 +19,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Basic form validation
     if (!formData.name || !formData.email || !formData.message) {
       toast.error('Please fill in all fields');
       return;
     }
-    // Here you would typically send the form data to a server
-    // For this example, we'll just log it and show a success message
     console.log('Form submitted:', {
       ...formData,
       recipientEmail: 'meurling.axel@gmail.com'
     });
     toast.success('Message sent successfully!');
-    // Reset form after submission
     setFormData({ name: '', email: '', message: '' });
   };
 
@@ -46,7 +42,7 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Phone className="w-6 h-6 mr-4 text-blue-600" />
-                <span>+1 (555) 123-4567</span>
+                <span>+46 763362063</span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-6 h-6 mr-4 text-blue-600" />
@@ -54,7 +50,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center">
                 <MapPin className="w-6 h-6 mr-4 text-blue-600" />
-                <span>123 Insurance St, New York, NY 10001</span>
+                <span>Sandelsgatan 35, 115 33 Stockholm, Sweden</span>
               </div>
             </div>
           </div>
