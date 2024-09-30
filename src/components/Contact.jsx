@@ -1,7 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Phone, Mail, MapPin } from 'lucide-react';
+import { toast } from 'sonner';
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prevState => ({
+      ...prevState,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Basic form validation
+    if (!formData.name || !formData.email || !formData.message) {
+      toast.error('Please fill in all fields');
+      return;
+    }
+    // Here you would typically send the form data to a server
+    // For this example, we'll just log it and show a success message
+    console.log('Form submitted:', formData);
+    toast.success('Message sent successfully!');
+    // Reset form after submission
+    setFormData({ name: '', email: '', message: '' });
+  };
+
   return (
     <section id="contact" className="py-16 bg-white">
       <div className="container mx-auto">
@@ -26,11 +56,37 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <form className="space-y-4">
-              <input type="text" placeholder="Your Name" className="w-full p-2 border border-gray-300 rounded" />
-              <input type="email" placeholder="Your Email" className="w-full p-2 border border-gray-300 rounded" />
-              <textarea placeholder="Your Message" rows="4" className="w-full p-2 border border-gray-300 rounded"></textarea>
-              <button type="submit" className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-colors">Send Message</button>
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <input
+                type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                placeholder="Your Name"
+                className="w-full p-2 border border-gray-300 rounded"
+              />
+              <input
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                placeholder="Your Email"
+                className="w-full p-2 border border-gray-300 rounded"
+              />
+              <textarea
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                placeholder="Your Message"
+                rows="4"
+                className="w-full p-2 border border-gray-300 rounded"
+              ></textarea>
+              <button
+                type="submit"
+                className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-colors"
+              >
+                Send Message
+              </button>
             </form>
           </div>
         </div>
