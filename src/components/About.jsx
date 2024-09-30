@@ -10,12 +10,12 @@ const About = () => {
           <div className="text-center">
             <Shield className="w-16 h-16 mx-auto mb-4 text-blue-600" />
             <h3 className="text-xl font-semibold mb-2">Comprehensive Protection</h3>
-            <p>We offer tailored trade credit insurance solutions to safeguard your business against non-payment risks.</p>
+            <p>We help you find the best tailored trade credit insurance solutions to safeguard your business against non-payment risks.</p>
           </div>
           <div className="text-center">
             <TrendingUp className="w-16 h-16 mx-auto mb-4 text-blue-600" />
             <h3 className="text-xl font-semibold mb-2">Growth Enabler</h3>
-            <p>Our coverage allows you to confidently expand into new markets and offer competitive payment terms.</p>
+            <p>Our global network of brokers and insurance providers will guarantee you the perfect solution.</p>
           </div>
           <div className="text-center">
             <Users className="w-16 h-16 mx-auto mb-4 text-blue-600" />
