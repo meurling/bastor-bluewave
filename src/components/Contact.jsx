@@ -26,7 +26,10 @@ const Contact = () => {
     }
     // Here you would typically send the form data to a server
     // For this example, we'll just log it and show a success message
-    console.log('Form submitted:', formData);
+    console.log('Form submitted:', {
+      ...formData,
+      recipientEmail: 'meurling.axel@gmail.com'
+    });
     toast.success('Message sent successfully!');
     // Reset form after submission
     setFormData({ name: '', email: '', message: '' });
@@ -47,7 +50,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="w-6 h-6 mr-4 text-blue-600" />
-                <span>info@bastor.com</span>
+                <span>meurling.axel@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-6 h-6 mr-4 text-blue-600" />
