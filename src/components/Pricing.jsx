@@ -3,8 +3,8 @@ import { Check } from 'lucide-react';
 
 const Pricing = () => {
   const benefits = [
-    "Get matched with the best brokers",
-    "Let brokers negotiate for you",
+    "Get matched with the best brokers or providers",
+    "Let brokers negotiate for you, or we find the perfect provider for you",
     "Competitive premium and terms",
     "Assistance in the whole process",
     "Global network of brokers and providers",
