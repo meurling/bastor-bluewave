@@ -46,7 +46,12 @@ const Contact = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="w-6 h-6 mr-4 text-blue-600" />
-                <span>meurling.axel@gmail.com</span>
+                <a 
+                  href="mailto:meurling.axel@gmail.com" 
+                  className="hover:text-blue-600 transition-colors"
+                >
+                  meurling.axel@gmail.com
+                </a>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-6 h-6 mr-4 text-blue-600" />
