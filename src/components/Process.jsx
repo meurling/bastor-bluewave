@@ -49,7 +49,7 @@ const Process = () => {
             to="contact"
             smooth={true}
             duration={500}
-            className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 hover:scale-105 transform transition-all duration-200 cursor-pointer animate-pulse hover:animate-none"
+            className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 hover:scale-105 transform transition-all duration-200 cursor-pointer"
           >
             Get Started Today
           </Link>
