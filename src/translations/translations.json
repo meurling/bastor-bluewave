@@ -100,5 +100,107 @@
       "success": "Message sent successfully!",
       "error": "Please fill in all fields"
     }
+  },
+  "de": {
+    "navbar": {
+      "about": "Über uns",
+      "process": "Prozess",
+      "pricing": "Preise",
+      "qa": "FAQ",
+      "contact": "Kontakt"
+    },
+    "hero": {
+      "title": "Schützen Sie Ihr Unternehmen mit\nWarenkreditversicherung",
+      "subtitle": "Bastor hilft Ihnen, die beste Warenkreditversicherung für Ihr Unternehmen zu finden, indem wir unser globales Netzwerk von Maklern und Anbietern nutzen",
+      "cta": "Jetzt starten"
+    },
+    "about": {
+      "title": "Über Bastor",
+      "protection": {
+        "title": "Umfassender Schutz",
+        "description": "Wir helfen Ihnen, die besten maßgeschneiderten Warenkreditversicherungslösungen zu finden, um Ihr Unternehmen vor Zahlungsausfallrisiken zu schützen."
+      },
+      "growth": {
+        "title": "Wachstumsmotor",
+        "description": "Unser globales Netzwerk von Maklern und Versicherungsanbietern garantiert Ihnen die perfekte Lösung."
+      },
+      "team": {
+        "title": "Expertenteam",
+        "description": "Mit jahrelanger Erfahrung bieten unsere Spezialisten persönliche Beratung und Unterstützung für Ihre geschäftlichen Anforderungen."
+      }
+    },
+    "process": {
+      "title": "Unser Prozess",
+      "steps": {
+        "1": {
+          "title": "Erstberatung",
+          "description": "Wir beginnen damit, Ihre geschäftlichen Bedürfnisse und Ihr Risikoprofil zu verstehen."
+        },
+        "2": {
+          "title": "Marktanalyse",
+          "description": "Unsere Experten analysieren den Markt, um die besten Versicherungsoptionen zu finden."
+        },
+        "3": {
+          "title": "Angebotsüberprüfung",
+          "description": "Wir präsentieren Ihnen maßgeschneiderte Versicherungslösungen."
+        },
+        "4": {
+          "title": "Umsetzung",
+          "description": "Wir helfen Ihnen bei der nahtlosen Implementierung der gewählten Lösung."
+        }
+      },
+      "cta": "Heute noch starten"
+    },
+    "pricing": {
+      "title": "Einfache Preisgestaltung, Sie zahlen nur Ihre Versicherungsprämie!",
+      "subtitle": "Ihr Makler berechnet dem Versicherungsanbieter, wir berechnen dem Makler. Mit anderen Worten: Unsere Dienstleistungen sind für Sie kostenlos!",
+      "benefits": {
+        "title": "Vorteile von Bastor",
+        "list": [
+          "Werden Sie mit den besten Maklern oder Anbietern zusammengebracht",
+          "Lassen Sie Makler für Sie verhandeln oder wir finden den perfekten Anbieter für Sie",
+          "Wettbewerbsfähige Prämien und Konditionen",
+          "Unterstützung im gesamten Prozess",
+          "Globales Netzwerk von Maklern und Anbietern",
+          "Sparen Sie durchschnittlich 20-25% Ihrer Prämie"
+        ]
+      },
+      "cta": "Kontaktieren Sie uns für ein kostenloses Angebot"
+    },
+    "qa": {
+      "title": "Häufig gestellte Fragen",
+      "questions": [
+        {
+          "question": "Was ist Warenkreditversicherung?",
+          "answer": "Warenkreditversicherung schützt Unternehmen vor Zahlungsausfall bei kommerziellen Schulden. Sie deckt Ihre Forderungen ab und stellt sicher, dass Sie auch dann bezahlt werden, wenn Ihr Kunde aufgrund von Insolvenz oder anderen Gründen nicht zahlt."
+        },
+        {
+          "question": "Wie kann Warenkreditversicherung meinem Unternehmen nutzen?",
+          "answer": "Warenkreditversicherung kann Ihnen helfen, Ihr Unternehmen sicher zu entwickeln, den Cashflow zu verbessern, die Kreditwürdigkeit zu steigern, Sicherheit im Umgang mit neuen oder bestehenden Kunden zu bieten und Zugang zu besseren Finanzierungskonditionen von Kreditgebern zu ermöglichen."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Kontakt",
+      "subtitle": "Haben Sie Fragen zur Warenkreditversicherung? Unsere Experten sind hier, um zu helfen.",
+      "form": {
+        "name": "Ihr Name",
+        "email": "Ihre E-Mail",
+        "message": "Ihre Nachricht",
+        "submit": "Nachricht senden"
+      },
+      "info": {
+        "phone": "+46 763362063",
+        "email": "meurling.axel@gmail.com",
+        "address": "Sandelsgatan 35, 115 33 Stockholm, Schweden"
+      }
+    },
+    "footer": {
+      "copyright": "© 2023 Bastor. Alle Rechte vorbehalten."
+    },
+    "messages": {
+      "success": "Nachricht erfolgreich gesendet!",
+      "error": "Bitte füllen Sie alle Felder aus"
+    }
   }
 }
